@@ -7,6 +7,6 @@
 ### Proposed Solution
   To improve training efficiency:
   - The agent will receive a small reward for each step taken while on Frozen (F).
-  -A discount factor will be applied to encourage the agent to reach the final goal as soon as possible.
+  - A discount factor will be applied to encourage the agent to reach the final goal as soon as possible.
 ### Features
-  -Implemented a Q-Learning algorithm for reinforcement learning in Python.
+  - Implemented a Q-Learning algorithm for reinforcement learning in Python.
