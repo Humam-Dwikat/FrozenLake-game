@@ -1,11 +1,12 @@
 # FrozenLake-game
-FrozenLake in Gym and how we can use Reinforcement Learning (RL) using (Q-Learning) with Python 
+  FrozenLake-game is a Python implementation of the FrozenLake environment in OpenAI's Gym, demonstrating how to apply Reinforcement Learning (RL) using Q-Learning.
 
-## This is the first code without fixing the problem
+### About This Project
+  This project explores the challenges of training an agent in the FrozenLake environment, specifically addressing the reward structure that affects training efficiency.
 
-### Reward problem
-The agent will take 1 point from the reward if reached the file goal (G)
-that makes the training not efficient
-### Solution
-We will give the agent a simple reward for each step if it was Frozen (F)
-and use the discount factor to make the agent try to reach the final goal in the shortest way
+### Proposed Solution
+  To improve training efficiency:
+    - The agent will receive a small reward for each step taken while on Frozen (F).
+    -A discount factor will be applied to encourage the agent to reach the final goal as soon as possible.
+### Features
+  -Implemented a Q-Learning algorithm for reinforcement learning in Python.
